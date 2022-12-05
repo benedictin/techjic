@@ -1,0 +1,199 @@
+.navigation:hover{
+    color: orangered;
+}
+.login{
+    border-radius: 50px;
+    color: white;
+    background-color:orangered;
+    border: 1px solid orangered;
+    padding: 10px;
+}
+.contact{
+    padding: 5px;
+}
+.image{
+    font-family:Arial, Helvetica, sans-serif ;
+    height: 566px;
+    padding-top: 174px;
+    text-align: center;
+    background-size: cover;
+    background-position: -1px;
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(image/pexels-serpstat-572056.jpg);
+}
+.image h1{
+    color: white;
+    font-weight: bold;
+}
+.image p{
+    color: white;
+    font-weight: bold;
+}
+.collapse-commencer {
+    background-color: orangered;
+    height: 52px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.collapse-commencer:hover{
+    z-index: 1;
+    transition: all .2s;
+    background-color: rgba(0,0,0,0.8)
+}
+.collapse-commencer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.collapse-commencer img{
+   
+   background-color: white;
+   padding: 10px;
+   border-radius: 50%;
+   height: 35px;
+   width: 35px;
+}
+.collapse-commencer img:hover{
+    transform: rotate(360deg);
+    transition: all .6s;
+}
+ .login-button{
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+    width: 20%;
+    height: 35px;
+}
+ .info{
+    color: orangered;
+}
+.presentation-main-img span{
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    color: orangered;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 125px;
+    height: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    margin-top: 210px;
+    margin-left: 262px;
+}
+.presentation-main-img img{
+    margin-left: 122px;
+    margin-top: -26px;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+.presentation-main-img img{
+    width:265px;
+    height: 280px;
+}
+.space{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.wallpaper{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/pexels-george-milton-7015153.jpg);
+    height: 500px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: auto;
+    padding: 130px 40px 20px 40px;
+    color: white;
+
+   
+}
+.commande{
+   
+    font-size: 16px;
+    background: transparent;
+    color: black;
+    border: none;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    border-radius: 50px;
+}
+.commande:hover{
+    color:white;
+    transition: all 2.1s;
+}
+.services{
+    margin-top: 10px;
+}
+.service{
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+}
+.card-title h1{
+    font-size: 20px;
+}
+.card{
+    border: none;
+}
+.card button{
+    border-color: orangered;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+}
+.card button:focus{
+    outline: none;
+}
+.footer{
+    background-color: #070022;
+}
+.footer img{
+    width: 10%;
+
+}
+.footer-image{
+    color: white;
+}
+
+
+.punga .web-site{ 
+    border-radius: 10px;
+    padding: 100px 40px 40px 60px;
+    margin-top: 120px;
+    display: inline-block;
+    box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.1);
+    background-color: rgb(7, 0, 34);
+    color: orangered;
+    
+}
+.punga .web-site img{ 
+    margin: 0 69px;
+}
+.punga .web-site h2{ 
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    font-size: 22px
+}
+.punga .web-site ul{ 
+    line-height: 2em;
+    font-size: 16px;
+}
+.punga .web-site button{ 
+    background-color: orangered;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    padding: .7em 1.6em;
+    cursor: pointer;
+    margin: 0 15px;
+    margin-top: 30px;
+    color: white;
+}
